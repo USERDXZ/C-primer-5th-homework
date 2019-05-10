@@ -1,0 +1,3 @@
+lin1 z
+lin2  y
+lin3  x
