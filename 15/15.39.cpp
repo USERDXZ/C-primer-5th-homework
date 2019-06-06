@@ -14,7 +14,7 @@ int main()
     }
     TextQuery text(file);
     auto q = Query( "fiery" ) & Query( "bird" ) | Query( "wind" );
-    auto result = q.eval(text)
+    auto result = q.eval(text);
     print(cout, result);
     return 0;
 }
